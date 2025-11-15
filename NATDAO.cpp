@@ -11,6 +11,7 @@ int main()
             but if you use only x it compile x ehich is int main function*/
     first::x+=9;  //this is arithmatic operator
     std::cout<<name;
-    std::cout<<first::x;      // use `first::x` (scope resolution) to access namespace variable
+    std::cout<<x;      // use `first::x` (scope resolution) to access namespace variable
     return 0;
+
 }
